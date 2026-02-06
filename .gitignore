@@ -1,0 +1,70 @@
+# Ignore audio files
+*.mp3
+*.wav
+*.flac
+*.aac
+*.ogg
+*.m4a
+
+# Ignore video files
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.flv
+*.wmv
+*.mpeg
+*.mpg
+
+# Large archives and disk images
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+*.iso
+
+# Temp and swap files
+*.tmp
+~$*
+*~
+*.swp
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+env/
+.venv/
+.env
+
+# Node / dependencies
+node_modules/
+
+# IDEs and editors
+.vscode/
+.idea/
+.vs/
+
+# OS generated files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# OneDrive / Office temp files
+~$*
+
+# Large binary/data files (ignore by pattern; use Git LFS if you need to track these)
+*.bin
+*.dat
+*.raw
+
+# If you want to track certain media files, remove the matching patterns above or
+# use Git LFS: https://git-lfs.github.com/
