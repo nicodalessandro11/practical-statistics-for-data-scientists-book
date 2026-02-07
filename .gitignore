@@ -4,10 +4,10 @@
 *.flac
 *.aac
 *.ogg
-*.m4a
+# *.m4a
 
 # Ignore video files
-*.mp4
+# *.mp4
 *.mov
 *.avi
 *.mkv
