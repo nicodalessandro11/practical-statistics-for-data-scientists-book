@@ -17,6 +17,31 @@ Media and large files
 git lfs install
 ```
 
+Cloning on a new computer
+
+```powershell
+git lfs install
+git clone https://github.com/nicodalessandro11/practical-statistics-for-data-scientists-book.git
+cd practical-statistics-for-data-scientists-book
+git lfs pull
+```
+
+If you cloned without Git LFS
+- You may see small text "pointer" files instead of real media. Fix it by running:
+
+```powershell
+git lfs install
+git lfs pull
+git lfs checkout
+```
+
+Helper script
+- You can also run:
+
+```powershell
+.\scripts\pull-lfs.ps1
+```
+
 If you add large media files, run:
 
 ```powershell
@@ -31,6 +56,12 @@ Contributing
 - Follow the naming convention for new files.
 - Add new chapter assets inside the corresponding `Chapter N.*` folder.
 - Commit small changes and push; if adding media, use Git LFS as shown above.
+
+If you add new `.mp4` or `.m4a` files and want a guided push:
+
+```powershell
+.\scripts\push-lfs.ps1 -Branch main
+```
 
 Contact
 - If you want me to help standardize more files or automate naming, ask and I will run the changes.
